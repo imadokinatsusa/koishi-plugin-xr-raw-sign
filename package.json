@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-xr-raw-sign",
   "description": "非常简单的签到以及个人信息查询插件 with超级详细的注释方便理解和修改",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,9 +9,16 @@
     "dist"
   ],
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+"
+  },
   "keywords": [
-    "chatbot",
+    "imadoki-natsusa",
+    "sign-in",
     "koishi",
     "plugin"
   ],
